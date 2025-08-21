@@ -6,17 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		614FD7F22E57ADDD0071E0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD7EF2E57ADDD0071E0E4 /* ContentView.swift */; };
+		614FD7F32E57ADDD0071E0E4 /* Modern_SwiftUI_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD7F02E57ADDD0071E0E4 /* Modern_SwiftUI_BootcampApp.swift */; };
+		614FD7F42E57ADDD0071E0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614FD7EE2E57ADDD0071E0E4 /* Assets.xcassets */; };
+		614FD7F82E57B1750071E0E4 /* VariablesAndDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD7F72E57B1750071E0E4 /* VariablesAndDataTypes.swift */; };
+		614FD7FA2E57B2220071E0E4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD7F92E57B2220071E0E4 /* Person.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		614FD7EE2E57ADDD0071E0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614FD7EF2E57ADDD0071E0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		614FD7F02E57ADDD0071E0E4 /* Modern_SwiftUI_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modern_SwiftUI_BootcampApp.swift; sourceTree = "<group>"; };
+		614FD7F72E57B1750071E0E4 /* VariablesAndDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesAndDataTypes.swift; sourceTree = "<group>"; };
+		614FD7F92E57B2220071E0E4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		614FD8152E57C2140071E0E4 /* FunctionsAndClosures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FunctionsAndClosures.xcodeproj; path = ../FunctionsAndClosures/FunctionsAndClosures.xcodeproj; sourceTree = SOURCE_ROOT; };
 		61EF5FB82E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modern-SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		61EF5FBA2E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Modern-SwiftUI-Bootcamp";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61EF5FB52E57AC3A003107A0 /* Frameworks */ = {
@@ -29,10 +35,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		614FD7F12E57ADDD0071E0E4 /* Modern-SwiftUI-Bootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				614FD7F52E57B0370071E0E4 /* Week-1 */,
+				614FD7EE2E57ADDD0071E0E4 /* Assets.xcassets */,
+				614FD7EF2E57ADDD0071E0E4 /* ContentView.swift */,
+				614FD7F02E57ADDD0071E0E4 /* Modern_SwiftUI_BootcampApp.swift */,
+			);
+			path = "Modern-SwiftUI-Bootcamp";
+			sourceTree = "<group>";
+		};
+		614FD7F52E57B0370071E0E4 /* Week-1 */ = {
+			isa = PBXGroup;
+			children = (
+				614FD7F62E57B0470071E0E4 /* 1.1.VariablesAndDataTypes */,
+				614FD7FB2E57BBAC0071E0E4 /* 1.2.FunctionsAndClosures */,
+			);
+			path = "Week-1";
+			sourceTree = "<group>";
+		};
+		614FD7F62E57B0470071E0E4 /* 1.1.VariablesAndDataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				614FD7F72E57B1750071E0E4 /* VariablesAndDataTypes.swift */,
+				614FD7F92E57B2220071E0E4 /* Person.swift */,
+			);
+			path = 1.1.VariablesAndDataTypes;
+			sourceTree = "<group>";
+		};
+		614FD7FB2E57BBAC0071E0E4 /* 1.2.FunctionsAndClosures */ = {
+			isa = PBXGroup;
+			children = (
+				614FD8152E57C2140071E0E4 /* FunctionsAndClosures.xcodeproj */,
+			);
+			path = 1.2.FunctionsAndClosures;
+			sourceTree = "<group>";
+		};
+		614FD8182E57C2150071E0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		61EF5FAF2E57AC3A003107A0 = {
 			isa = PBXGroup;
 			children = (
-				61EF5FBA2E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */,
+				614FD7F12E57ADDD0071E0E4 /* Modern-SwiftUI-Bootcamp */,
 				61EF5FB92E57AC3A003107A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				61EF5FBA2E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */,
 			);
 			name = "Modern-SwiftUI-Bootcamp";
 			packageProductDependencies = (
@@ -97,6 +144,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 61EF5FB92E57AC3A003107A0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 614FD8182E57C2150071E0E4 /* Products */;
+					ProjectRef = 614FD8152E57C2140071E0E4 /* FunctionsAndClosures.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				61EF5FB72E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */,
@@ -109,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614FD7F42E57ADDD0071E0E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614FD7F82E57B1750071E0E4 /* VariablesAndDataTypes.swift in Sources */,
+				614FD7F22E57ADDD0071E0E4 /* ContentView.swift in Sources */,
+				614FD7FA2E57B2220071E0E4 /* Person.swift in Sources */,
+				614FD7F32E57ADDD0071E0E4 /* Modern_SwiftUI_BootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
