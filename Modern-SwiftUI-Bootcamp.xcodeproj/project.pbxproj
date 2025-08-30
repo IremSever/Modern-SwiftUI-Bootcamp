@@ -14,6 +14,7 @@
 		614FD7FA2E57B2220071E0E4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD7F92E57B2220071E0E4 /* Person.swift */; };
 		616B330F2E5B6316006D64A0 /* SwiftUILayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B330E2E5B6316006D64A0 /* SwiftUILayout.swift */; };
 		616B33112E5B76CC006D64A0 /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B33102E5B76CC006D64A0 /* InfoCard.swift */; };
+		61DD64232E637C3D00A2778D /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DD64222E637C3D00A2778D /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		614FD8152E57C2140071E0E4 /* FunctionsAndClosures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FunctionsAndClosures.xcodeproj; path = ../FunctionsAndClosures/FunctionsAndClosures.xcodeproj; sourceTree = SOURCE_ROOT; };
 		616B330E2E5B6316006D64A0 /* SwiftUILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILayout.swift; sourceTree = "<group>"; };
 		616B33102E5B76CC006D64A0 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		61DD64222E637C3D00A2778D /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		61EF5FB82E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modern-SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,6 +44,7 @@
 		614FD7F12E57ADDD0071E0E4 /* Modern-SwiftUI-Bootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				61DD641D2E637B6300A2778D /* Week-3 */,
 				616B33092E5B62FA006D64A0 /* Week-2 */,
 				614FD7F52E57B0370071E0E4 /* Week-1 */,
 				614FD7EE2E57ADDD0071E0E4 /* Assets.xcassets */,
@@ -99,6 +102,22 @@
 				616B33102E5B76CC006D64A0 /* InfoCard.swift */,
 			);
 			path = 1.3.SwiftUILayout;
+			sourceTree = "<group>";
+		};
+		61DD641D2E637B6300A2778D /* Week-3 */ = {
+			isa = PBXGroup;
+			children = (
+				61DD64212E637BAA00A2778D /* 1.4.StateManagementAndInteractiveApp */,
+			);
+			path = "Week-3";
+			sourceTree = "<group>";
+		};
+		61DD64212E637BAA00A2778D /* 1.4.StateManagementAndInteractiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				61DD64222E637C3D00A2778D /* CounterView.swift */,
+			);
+			path = 1.4.StateManagementAndInteractiveApp;
 			sourceTree = "<group>";
 		};
 		61EF5FAF2E57AC3A003107A0 = {
@@ -196,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				614FD7F82E57B1750071E0E4 /* VariablesAndDataTypes.swift in Sources */,
+				61DD64232E637C3D00A2778D /* CounterView.swift in Sources */,
 				616B33112E5B76CC006D64A0 /* InfoCard.swift in Sources */,
 				614FD7F22E57ADDD0071E0E4 /* ContentView.swift in Sources */,
 				616B330F2E5B6316006D64A0 /* SwiftUILayout.swift in Sources */,
