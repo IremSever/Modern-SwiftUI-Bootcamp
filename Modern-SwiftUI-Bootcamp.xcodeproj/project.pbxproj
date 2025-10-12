@@ -51,12 +51,28 @@
 		614FD8152E57C2140071E0E4 /* FunctionsAndClosures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FunctionsAndClosures.xcodeproj; path = ../FunctionsAndClosures/FunctionsAndClosures.xcodeproj; sourceTree = SOURCE_ROOT; };
 		616B330E2E5B6316006D64A0 /* SwiftUILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILayout.swift; sourceTree = "<group>"; };
 		616B33102E5B76CC006D64A0 /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		61D6353B2E9C0A0000889B5D /* TaskFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DD64222E637C3D00A2778D /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		61EF5FB82E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modern-SwiftUI-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61D6353C2E9C0A0000889B5D /* TaskFlowApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaskFlowApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		613C7BBD2E6488740043B316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D635382E9C0A0000889B5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,6 +188,7 @@
 			children = (
 				614FD7F12E57ADDD0071E0E4 /* Modern-SwiftUI-Bootcamp */,
 				613C7BD12E648C5C0043B316 /* MasterListApp */,
+				61D6353C2E9C0A0000889B5D /* TaskFlowApp */,
 				61EF5FB92E57AC3A003107A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,6 +198,7 @@
 			children = (
 				61EF5FB82E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp.app */,
 				613C7BC02E6488740043B316 /* MasterListApp.app */,
+				61D6353B2E9C0A0000889B5D /* TaskFlowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +223,28 @@
 			);
 			productName = MasterListApp;
 			productReference = 613C7BC02E6488740043B316 /* MasterListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61D6353A2E9C0A0000889B5D /* TaskFlowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D635452E9C0A0100889B5D /* Build configuration list for PBXNativeTarget "TaskFlowApp" */;
+			buildPhases = (
+				61D635372E9C0A0000889B5D /* Sources */,
+				61D635382E9C0A0000889B5D /* Frameworks */,
+				61D635392E9C0A0000889B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				61D6353C2E9C0A0000889B5D /* TaskFlowApp */,
+			);
+			name = TaskFlowApp;
+			packageProductDependencies = (
+			);
+			productName = TaskFlowApp;
+			productReference = 61D6353B2E9C0A0000889B5D /* TaskFlowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		61EF5FB72E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */ = {
@@ -233,11 +273,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					613C7BBF2E6488740043B316 = {
 						CreatedOnToolsVersion = 16.4;
+					};
+					61D6353A2E9C0A0000889B5D = {
+						CreatedOnToolsVersion = 26.0.1;
 					};
 					61EF5FB72E57AC3A003107A0 = {
 						CreatedOnToolsVersion = 16.4;
@@ -266,6 +309,7 @@
 			targets = (
 				61EF5FB72E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */,
 				613C7BBF2E6488740043B316 /* MasterListApp */,
+				61D6353A2E9C0A0000889B5D /* TaskFlowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -276,6 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				613C7BD52E648C5C0043B316 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D635392E9C0A0000889B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +353,13 @@
 				613C7BD72E648C5C0043B316 /* MasterListApp.swift in Sources */,
 				613C7BDA2E648DC20043B316 /* ListViewModel.swift in Sources */,
 				613C7BE02E648E060043B316 /* AddItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D635372E9C0A0000889B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +436,70 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iremsever.MasterListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61D635432E9C0A0100889B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremsever.TaskFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D635442E9C0A0100889B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremsever.TaskFlowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -564,6 +686,15 @@
 			buildConfigurations = (
 				613C7BC92E6488750043B316 /* Debug */,
 				613C7BCA2E6488750043B316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D635452E9C0A0100889B5D /* Build configuration list for PBXNativeTarget "TaskFlowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D635432E9C0A0100889B5D /* Debug */,
+				61D635442E9C0A0100889B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
