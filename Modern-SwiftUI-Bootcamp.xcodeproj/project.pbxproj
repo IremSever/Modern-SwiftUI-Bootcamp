@@ -34,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		611E8FED2EA02FA400B3A598 /* EventFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613C7BC02E6488740043B316 /* MasterListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613C7BCE2E648C5C0043B316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613C7BCF2E648C5C0043B316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +58,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		611E8FEE2EA02FA400B3A598 /* EventFlow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EventFlow;
+			sourceTree = "<group>";
+		};
 		61D6353C2E9C0A0000889B5D /* TaskFlowApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TaskFlowApp;
@@ -65,6 +71,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		611E8FEA2EA02FA400B3A598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613C7BBD2E6488740043B316 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +202,7 @@
 				614FD7F12E57ADDD0071E0E4 /* Modern-SwiftUI-Bootcamp */,
 				613C7BD12E648C5C0043B316 /* MasterListApp */,
 				61D6353C2E9C0A0000889B5D /* TaskFlowApp */,
+				611E8FEE2EA02FA400B3A598 /* EventFlow */,
 				61EF5FB92E57AC3A003107A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +213,7 @@
 				61EF5FB82E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp.app */,
 				613C7BC02E6488740043B316 /* MasterListApp.app */,
 				61D6353B2E9C0A0000889B5D /* TaskFlowApp.app */,
+				611E8FED2EA02FA400B3A598 /* EventFlow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +221,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		611E8FEC2EA02FA400B3A598 /* EventFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611E8FF72EA02FA600B3A598 /* Build configuration list for PBXNativeTarget "EventFlow" */;
+			buildPhases = (
+				611E8FE92EA02FA400B3A598 /* Sources */,
+				611E8FEA2EA02FA400B3A598 /* Frameworks */,
+				611E8FEB2EA02FA400B3A598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				611E8FEE2EA02FA400B3A598 /* EventFlow */,
+			);
+			name = EventFlow;
+			packageProductDependencies = (
+			);
+			productName = EventFlow;
+			productReference = 611E8FED2EA02FA400B3A598 /* EventFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
 		613C7BBF2E6488740043B316 /* MasterListApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613C7BC82E6488750043B316 /* Build configuration list for PBXNativeTarget "MasterListApp" */;
@@ -276,6 +313,9 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
+					611E8FEC2EA02FA400B3A598 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
 					613C7BBF2E6488740043B316 = {
 						CreatedOnToolsVersion = 16.4;
 					};
@@ -310,11 +350,19 @@
 				61EF5FB72E57AC3A003107A0 /* Modern-SwiftUI-Bootcamp */,
 				613C7BBF2E6488740043B316 /* MasterListApp */,
 				61D6353A2E9C0A0000889B5D /* TaskFlowApp */,
+				611E8FEC2EA02FA400B3A598 /* EventFlow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		611E8FEB2EA02FA400B3A598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613C7BBE2E6488740043B316 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +390,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		611E8FE92EA02FA400B3A598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613C7BBC2E6488740043B316 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,6 +442,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		611E8FF52EA02FA600B3A598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremsever.EventFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		611E8FF62EA02FA600B3A598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremsever.EventFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		613C7BC92E6488750043B316 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -681,6 +800,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		611E8FF72EA02FA600B3A598 /* Build configuration list for PBXNativeTarget "EventFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611E8FF52EA02FA600B3A598 /* Debug */,
+				611E8FF62EA02FA600B3A598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		613C7BC82E6488750043B316 /* Build configuration list for PBXNativeTarget "MasterListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

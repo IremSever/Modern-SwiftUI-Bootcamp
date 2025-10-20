@@ -58,7 +58,7 @@ struct CounterView: View {
                        }
                        
                        Button(action: {
-                           counter = 0 // sıfırlama
+                           counter = 0 
                        }) {
                            Image(systemName: "arrow.counterclockwise.circle.fill")
                                .font(.system(size: 60))
